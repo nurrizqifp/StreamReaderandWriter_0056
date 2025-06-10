@@ -44,4 +44,7 @@ int main(){
             cout << baris << '\n';
         }
     }
+    // jika tidak ditemukan file maka akan menampilkan :
+    else cout << "unable to open file";
+    return 0;
 }
