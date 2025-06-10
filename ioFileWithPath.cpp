@@ -13,7 +13,7 @@ int main(){
     // menunjuk ke sebuah nama file
     outfile.open(NamaFile + "txt", ios::out);
 
-    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
     // unlimited loop untuk menulis
     while (true){
@@ -25,4 +25,7 @@ int main(){
         // menulis dan memasukkan nilai dari baris ke dalam file
         outfile<<baris<<endl;
     }
+
+    // selesai dalam menulis sekarang tutup filenya
+    outfile.close();
 }
